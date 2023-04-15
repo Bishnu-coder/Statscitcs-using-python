@@ -22,5 +22,6 @@ Install my-project with git
 
 ![Logo](https://github.com/Bishnu-coder/Statscitcs-using-python/blob/main/image.png?raw=true)
 
-
+Example 2 |
+          V
 ![Logo](https://github.com/Bishnu-coder/Statscitcs-using-python/blob/main/image1.png?raw=true)
