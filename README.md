@@ -18,10 +18,14 @@ Install my-project with git
 ## Usage/Examples
 
 
-
+```bash
+  py mean.py xf
+```
 
 ![Logo](https://github.com/Bishnu-coder/Statscitcs-using-python/blob/main/image.png?raw=true)
 
-Example 2 |
-          V
+```bash
+  py mean.py x
+```
+
 ![Logo](https://github.com/Bishnu-coder/Statscitcs-using-python/blob/main/image1.png?raw=true)
