@@ -70,18 +70,17 @@ class Mean_x():
         print(f'[magenta]   mean={self.s_x}/{self.n}[/magenta]')
         print(f'[magenta]    ={round(self.s_x/self.n,2)}->answer[/magenta]')         
 
-
-
-
+# dictinory holding all types of mean functions
 TYPE_MEAN={
     'xf':Mean_x_f,
     'x':Mean_x
         }
 
+#using click to add function of being used as command line tool
 @click.command()
 @click.argument('typeo',type=click.Choice(TYPE_MEAN.keys()),default='x')
 def Handle_types(typeo):
     '''selecting function to run'''
     TYPE_MEAN[typeo]()
 
-Handle_types()
+Handle_types()#->>>>>>Finally calling main functions
