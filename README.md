@@ -11,7 +11,7 @@ Install my-project with git
 
 ```bash
   git clone https://github.com/Bishnu-coder/Statscitcs-using-python
-  cd statistics-using-python
+  cd Statscitcs-using-python
   python3 mean.py [option]
 ```
 
